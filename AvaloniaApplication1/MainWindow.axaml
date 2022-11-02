@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplicationForms.MainWindow"
+        Title="AvaloniaApplicationForms">
+	<Grid RowDefinitions="Auto, Auto, Auto, *" ColumnDefinitions="*">
+		<TextBox Grid.Row="0" Grid.Column="0" x:Name="textBoxJmeno" Text="" />
+		<TextBlock Grid.Row="1" Grid.Column="0" MinHeight="16" x:Name="textBlockSelectedStudent" />
+		<Button Grid.Row="2" Grid.Column="0" Content="Add" Click="Tlacitko_Click" />
+		<ListBox Grid.Row="3" Grid.Column="0" x:Name="listBoxStudents" Items="{Binding Students}" SelectionChanged="ListBoxStudents_SelectionChanged"  />
+	</Grid>
+</Window>
