@@ -20,6 +20,7 @@ class UniversityContext : DbContext
     {
         string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
         string path = Path.Join(folder, "database.db");
+
         optionsBuilder.UseSqlite($"Data Source={path}");
     }
 
