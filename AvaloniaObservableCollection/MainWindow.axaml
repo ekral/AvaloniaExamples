@@ -5,5 +5,17 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaObservableCollection.MainWindow"
         Title="AvaloniaObservableCollection">
-    Welcome to Avalonia!
+    <StackPanel>
+		<Button Content="Novy student" Command="{Binding Pridej}"/>
+		<ListBox Items="{Binding Studenti}">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<StackPanel>
+						<TextBlock Text="{Binding Rocnik}"/>
+						<TextBlock Text="{Binding Jmeno}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</StackPanel>
 </Window>

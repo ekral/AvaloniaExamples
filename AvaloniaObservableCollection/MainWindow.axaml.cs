@@ -6,6 +6,7 @@ namespace AvaloniaObservableCollection
     {
         public MainWindow()
         {
+            DataContext = new ViewModel();
             InitializeComponent();
         }
     }
