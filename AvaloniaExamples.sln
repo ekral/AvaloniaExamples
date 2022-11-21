@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaApplicationForms", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaApplicationMvvm", "AvaloniaApplicationMvvm\AvaloniaApplicationMvvm.csproj", "{345A071A-6530-4E34-84DD-6564E3AECC60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaObservableCollection", "AvaloniaObservableCollection\AvaloniaObservableCollection.csproj", "{FFDF50BA-B479-4AFC-AF2C-7F1B6A64A743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaObservableCollection", "AvaloniaObservableCollection\AvaloniaObservableCollection.csproj", "{FFDF50BA-B479-4AFC-AF2C-7F1B6A64A743}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkStudents", "EntityFrameworkStudents\EntityFrameworkStudents.csproj", "{11DA05E0-E7FE-4D73-BFE0-0A33981786F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkStudents", "EntityFrameworkStudents\EntityFrameworkStudents.csproj", "{11DA05E0-E7FE-4D73-BFE0-0A33981786F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaNavigationToControl", "AvaloniaNavigationToControl\AvaloniaNavigationToControl.csproj", "{80ACE957-293E-4DC5-9665-79652DB084DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{11DA05E0-E7FE-4D73-BFE0-0A33981786F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11DA05E0-E7FE-4D73-BFE0-0A33981786F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11DA05E0-E7FE-4D73-BFE0-0A33981786F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80ACE957-293E-4DC5-9665-79652DB084DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ACE957-293E-4DC5-9665-79652DB084DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ACE957-293E-4DC5-9665-79652DB084DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ACE957-293E-4DC5-9665-79652DB084DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
